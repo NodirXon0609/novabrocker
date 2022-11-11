@@ -1,3 +1,12 @@
+/* CUSTOM PROPERTIES */
+:root {
+  --color-red: #eb242a;
+  --main-color-sapphire: #001a49;
+  --color-navy: #272d4e;
+  --color-dark-gray:#57606a;
+}
+
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -42,5 +51,5 @@ img {
 
 /* MAIN-CONTENT */
 .main-content {
-flex-grow: 1;
+  flex-grow: 1;
 }
