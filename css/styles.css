@@ -100,11 +100,12 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 150%;
+  font-weight: 400;
   background-color: #fff;
-  color: #222;
+  color:#4f596a;
 }
 
 img {
@@ -115,9 +116,9 @@ img {
 /* CONTAINER  */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1548px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
 }
