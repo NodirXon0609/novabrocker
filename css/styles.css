@@ -94,6 +94,24 @@ html {
   box-sizing: inherit;
 }
 
+/* FOCUS-STYLES */
+*:focus {
+  outline: 3px dashed var(--color-red);
+  outline-offset: 3px;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  flex-shrink: 0;
+  object-fit: contain;
+  transition: opacity 0.5s ease;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -127,4 +145,51 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+.header-hero-wrapper {
+  padding-top: 40px;
+  padding-bottom: 190px;
+  background-color: #f4f4f4;
+}
+
+/* SITE-HEADER */
+.site-header {
+  margin-bottom: 155px;
+}
+
+.site-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header-logo {
+  margin-right: 30px;
+}
+
+.logo-img {
+  height: 41px;
+  width: 226px;
+}
+
+.phone-arrow {
+  display: flex;
+  align-items: center;
+  border-radius: 33px;
+  text-decoration: none;
+  font-family: "Mulish", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  width: 193px;
+  flex-shrink: 0;
+  border: solid 2px var(--color-red);
+  color: var(--color-red);
+}
+
+.phone-arrow-img {
+  width: 47px;
+  height: 47px;
+  object-fit: cover;
+  margin: -2px 18px -2px -2px;
 }
