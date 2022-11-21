@@ -151,6 +151,9 @@ img {
   padding-top: 40px;
   padding-bottom: 190px;
   background-color: #f4f4f4;
+  background-image: url("../img/hero-bg.svg"),linear-gradient(212.6deg, #fff 3.87%, rgba(255, 255, 255, 0)45.48%);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 415px) -140px;
 }
 
 /* SITE-HEADER */
@@ -192,4 +195,66 @@ img {
   height: 47px;
   object-fit: cover;
   margin: -2px 18px -2px -2px;
+}
+
+/* HERO */
+.hero-heading {
+  margin: 0;
+  width: 100%;
+  font-size: 90px;
+  max-width: 567px;
+  font-weight: 700;
+  line-height: 109px;
+  margin-bottom: 36px;
+  color: var(--color-navy);
+}
+
+.hero-text {
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+  max-width: 551px;
+  font-weight: 500;
+  line-height: 119%;
+  margin-bottom: 118px;
+  color: var(--color-dark-gray);
+}
+
+.hero-button-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.main-btn {
+  display: inline-block;
+  padding: 21px 68px;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 31px;
+  margin-right: 31px;
+  border-radius: 60px;
+  text-decoration: none;
+  transition: opacity 0.5s ease;
+  background-color: var(--color-red);
+  color: #fff;
+}
+
+.main-btn:hover {
+  opacity: 0.6;
+}
+
+.btn-label {
+  margin-right: 15px;
+  color: rgba(148, 162, 179, 1);
+}
+
+.blue-btn {
+  font-weight: 700;
+  color: rgba(41, 158, 243, 1);
+}
+
+.blue-btn:hover {
+  text-decoration: none;
 }
